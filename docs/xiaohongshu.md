@@ -32,3 +32,6 @@ GitHub：https://github.com/tang-chaos/see-english
 ---
 
 配图顺序建议：`media/xhs-01-cover.png` → `screenshots/desk-app-example.png` → `screenshots/kitchen-app-example.png` → `media/xhs-02-example.png` → `media/xhs-03-status.png`。这些是分享排版，不冒充手机实拍截图。原图许可见 [素材说明](media/README.md)，原始识别记录见 [demo.md](demo.md)。
+
+
+技术配图：`diagrams/see-english-architecture.png`，对应当前 0.8.5 源码架构；可放在两张 APP 效果图之后。说明见 [architecture.md](architecture.md)。

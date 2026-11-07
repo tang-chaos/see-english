@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440" role="img" aria-labelledby="title desc">
+<title id="title">看见英语 0.8.5 技术架构</title>
+<desc id="desc">相机与相册输入分为 EfficientDet-Lite0 轻量检测和 Qwen3-VL-8B INT4 MNN CPU 模型识别，再通过 LearningStore 映射词汇、记录历史、收藏和系统离线朗读。</desc>
+<rect width="1080" height="1440" fill="#F8F7F2"/>
+<text x="48" y="32" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="51" font-weight="700" fill="#172C27">看见英语｜技术怎么实现？</text>
+<text x="48" y="104" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#53695E">Android 原生应用 · 双识别通道 · 本地学习闭环</text>
+<rect x="48" y="158" width="984" height="44" rx="18" fill="#E1EEE7" stroke="#E1EEE7" stroke-width="2"/>
+<text x="68" y="163" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#16634E">Kotlin  /  Compose  /  CameraX  /  MediaPipe  /  MNN</text>
+<rect x="64" y="238" width="952" height="116" rx="24" fill="#FFFFFF" stroke="#D7E2DA" stroke-width="2"/>
+<text x="94" y="253" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#53695E">图像输入</text>
+<text x="94" y="294" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="33" font-weight="700" fill="#16634E">CameraX 相机画面 / 拍照定格 / 相册图片</text>
+<polyline points="540,354 540,383 292,383 292,448" fill="none" stroke="#91B2A1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="284,436 300,436 292,448" fill="#91B2A1"/>
+<polyline points="540,383 788,383 788,448" fill="none" stroke="#91B2A1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="780,436 796,436 788,448" fill="#91B2A1"/>
+<text x="90" y="401" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#53695E">实时 / 定格</text>
+<text x="594" y="401" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#53695E">用户按需触发</text>
+<rect x="64" y="448" width="456" height="254" rx="24" fill="#FFFFFF" stroke="#D7E2DA" stroke-width="2"/>
+<rect x="88" y="470" width="224" height="44" rx="15" fill="#E1EEE7" stroke="#E1EEE7" stroke-width="2"/>
+<text x="104" y="475" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#16634E">01  轻量物体检测</text>
+<text x="88" y="535" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#172C27">EfficientDet-Lite0</text>
+<text x="88" y="586" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#53695E">MediaPipe · COCO 80 类</text>
+<text x="88" y="628" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#16634E">输出：位置框 + 物品类别</text>
+<text x="88" y="668" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#53695E">置信度筛选 / 去重 / 跨帧确认</text>
+<rect x="560" y="448" width="456" height="254" rx="24" fill="#FFF9EA" stroke="#D7E2DA" stroke-width="2"/>
+<rect x="584" y="470" width="224" height="44" rx="15" fill="#F5CE75" stroke="#F5CE75" stroke-width="2"/>
+<text x="600" y="475" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#172C27">02  照片模型识别</text>
+<text x="584" y="535" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="700" fill="#172C27">Qwen3-VL-8B · INT4</text>
+<text x="584" y="586" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#53695E">MNN CPU · 独立服务进程</text>
+<text x="584" y="628" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#16634E">输出：英文 + 中文 JSON</text>
+<text x="584" y="668" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#53695E">按需运行，不输出物体定位框</text>
+<polyline points="292,702 292,741 540,741 540,782" fill="none" stroke="#91B2A1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="532,770 548,770 540,782" fill="#91B2A1"/>
+<polyline points="788,702 788,741 540,741" fill="none" stroke="#91B2A1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="64" y="782" width="952" height="202" rx="24" fill="#16634E" stroke="#16634E" stroke-width="2"/>
+<text x="94" y="804" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="33" font-weight="700" fill="#FFFFFF">LearningStore：状态与词汇映射</text>
+<text x="94" y="859" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#E0EFE6">内置词典 519 词条 + 自定义新词</text>
+<text x="94" y="902" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#E0EFE6">音标来自词典；未收录时明确提示</text>
+<text x="94" y="946" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" fill="#D2E5D8">词条数量 ≠ 检测模型支持的类别数量</text>
+<polyline points="540,984 540,1024 210,1024 210,1065" fill="none" stroke="#91B2A1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="202,1053 218,1053 210,1065" fill="#91B2A1"/>
+<polyline points="540,1024 540,1065" fill="none" stroke="#91B2A1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="532,1053 548,1053 540,1065" fill="#91B2A1"/>
+<polyline points="540,1024 870,1024 870,1065" fill="none" stroke="#91B2A1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="862,1053 878,1053 870,1065" fill="#91B2A1"/>
+<rect x="64" y="1065" width="292" height="150" rx="24" fill="#FFFFFF" stroke="#D7E2DA" stroke-width="2"/>
+<text x="86" y="1082" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="700" fill="#16634E">识别历史</text>
+<text x="86" y="1132" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#53695E">自动记录 / 单词去重</text>
+<text x="86" y="1174" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#53695E">SharedPreferences</text>
+<rect x="394" y="1065" width="292" height="150" rx="24" fill="#FFFFFF" stroke="#D7E2DA" stroke-width="2"/>
+<text x="416" y="1082" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="700" fill="#16634E">生词本</text>
+<text x="416" y="1132" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#53695E">手动收藏 / 自定义词</text>
+<text x="416" y="1174" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#53695E">SharedPreferences</text>
+<rect x="724" y="1065" width="292" height="150" rx="24" fill="#FFFFFF" stroke="#D7E2DA" stroke-width="2"/>
+<text x="746" y="1082" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="700" fill="#16634E">单词发音</text>
+<text x="746" y="1132" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#53695E">系统离线英语语音</text>
+<text x="746" y="1174" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#53695E">Android TTS</text>
+<rect x="64" y="1255" width="952" height="122" rx="24" fill="#FFF1D1" stroke="#FFF1D1" stroke-width="2"/>
+<text x="88" y="1270" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="700" fill="#172C27">本机完成识别 · 无需 API Key</text>
+<text x="88" y="1314" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#53695E">APK 约 40MB ｜ 模型约 5.45GB，独立导入</text>
+<text x="64" y="1393" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#53695E">当前 0.8.5：8B 识别较慢且可能误判；此图为源码架构说明。</text>
+</svg>

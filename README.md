@@ -37,6 +37,12 @@
 
 [查看原图、原始输出与生成方式](docs/screenshots/README.md)。照片来自 Unsplash，出处和许可见 [素材说明](docs/media/README.md)；更多结果与遗漏说明见 [示例记录](docs/demo.md)。
 
+## 技术架构
+
+<img src="docs/diagrams/see-english-architecture.png" alt="看见英语：双识别通道与本地学习闭环技术架构" width="720" />
+
+相机输入分别进入轻量检测和按需照片模型，经统一词汇映射后用于历史、生词本与离线发音。[技术说明与可编辑 SVG](docs/architecture.md)。
+
 ## 当前不足
 
 识别仍会漏检、误判，遮挡、小物体、包装细节和相似外观尤其困难。手机上的 8B 识别较慢，已有体验反馈每张超过 30 秒；耗时因手机与画面而异，没有统一性能承诺。模型文件明显大于 APP，新词音标与翻译的完整性也需要继续改善。
