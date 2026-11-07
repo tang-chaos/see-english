@@ -1,10 +1,11 @@
 {
   "version": "0.8.5",
-  "reviewed_files": 97,
-  "reviewed_bytes": 56844022,
+  "reviewed_files": 100,
   "findings": [],
   "private_photos_and_logs_excluded": true,
   "only_latest_apk_tracked": true,
   "real_email_not_in_commit_identity": true,
-  "scope": "Reviewed Git index and decoded APK/JAR entries for common secret formats and local personal paths; not a formal security audit."
+  "github_secret_scanning_enabled": true,
+  "github_push_protection_enabled": true,
+  "scope": "Reviewed tracked source and decoded APK/JAR entries for common secret formats and personal local paths; not a formal security audit."
 }

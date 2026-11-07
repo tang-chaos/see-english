@@ -3,11 +3,7 @@
   "apk": {
     "file": "see-english-0.8.5-arm64-debug.apk",
     "bytes": 39988103,
-    "sha256": "8d2375b16887ddfcafeaaed93a39eb3fda2527617ed9557e7770ed70d8c5a72d",
-    "abis": [
-      "arm64-v8a"
-    ],
-    "packaged_assets_match": true
+    "sha256": "8d2375b16887ddfcafeaaed93a39eb3fda2527617ed9557e7770ed70d8c5a72d"
   },
   "model": {
     "repository": "taobao-mnn/Qwen3-VL-8B-Instruct-MNN",
@@ -80,8 +76,8 @@
   "internet_required": false,
   "archive": {
     "file": "see-english-0.8.5-offline-arm64.zip",
-    "bytes": 5493856534,
-    "sha256": "756705eaf6f5435f2854fcf0179c81539dfdfcac104c384328d6291e133f953e",
+    "bytes": 5493856417,
+    "sha256": "3773046c2068779ecfc05b667c5f50bf2d99cf3b647512bee09cc9b434942995",
     "crc_verified": true
   }
 }

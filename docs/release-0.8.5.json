@@ -1,0 +1,14 @@
+{
+  "release": "https://github.com/tang-chaos/see-english/releases/tag/v0.8.5",
+  "hosted_workflow": "https://github.com/tang-chaos/see-english/actions/runs/42343408285",
+  "assets_verified": 17,
+  "model_volumes": 11,
+  "archive_bytes": 5493856417,
+  "archive_sha256": "3773046c2068779ecfc05b667c5f50bf2d99cf3b647512bee09cc9b434942995",
+  "remote_asset_sha256_matches": true,
+  "apk_unchanged": true,
+  "model_revision": "890e672be412e84d34bc318925aa4b7b61ad24c7",
+  "model_files_match_pinned_manifest": true,
+  "original_code_license": "Apache-2.0",
+  "note": "Checks cover contents and uploaded checksums; they are not a formal security audit or a multi-device accuracy benchmark."
+}
