@@ -2,6 +2,8 @@
 import argparse
 import hashlib
 import json
+import os
+import subprocess
 import shutil
 import zipfile
 from pathlib import Path
@@ -17,7 +19,12 @@ def sha(path):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--model-dir',type=Path,default=ROOT/'model-work/vlm/Qwen3-VL-8B-Instruct-MNN')
+    parser.add_argument('--upload-release',help='Stream generated volumes to an existing draft Release on a GitHub-hosted runner')
+    parser.add_argument('--repo',default=os.environ.get('GITHUB_REPOSITORY'))
     args=parser.parse_args()
+    if args.upload_release:
+        assert os.environ.get('GITHUB_ACTIONS')=='true' and args.repo and os.environ.get('GH_TOKEN'),'Hosted Release upload requires explicit workflow context'
+
     model=args.model_dir.resolve()
     manifest=json.loads((ROOT/'app/src/main/assets/vlm-model.json').read_text(encoding='utf-8'))
     assert sha(APK)==APK.with_suffix('.apk.sha256').read_text().strip(),'APK checksum mismatch'
@@ -63,6 +70,15 @@ def main():
                     output.write(chunk);digest.update(chunk);written+=len(chunk)
             parts.append({'file':path.name,'bytes':written,'sha256':digest.hexdigest()})
             print('Split',path.name,written,flush=True);index+=1
+            if args.upload_release:
+                subprocess.run(['gh','release','upload',args.upload_release,'--repo',args.repo,str(path),'--clobber'],check=True)
+                remote=json.loads(subprocess.check_output(['gh','release','view',args.upload_release,'--repo',args.repo,'--json','assets']))
+                asset=next(a for a in remote['assets'] if a['name']==path.name)
+                assert asset['size']==written and asset.get('digest')=='sha256:'+digest.hexdigest(),'Remote volume checksum mismatch'
+                # Only this just-created, verified volume on the ephemeral runner is removed.
+                assert path.parent.resolve()==(ROOT/'artifacts').resolve() and path.name.startswith(archive.name+'.part')
+                path.unlink()
+
     release={'version':VERSION,'archive':info['archive'],'parts':parts}
     (ROOT/f'artifacts/offline-parts-{VERSION}.json').write_text(json.dumps(release,indent=2),encoding='utf-8')
     shutil.copy2(ROOT/'scripts/merge-offline.ps1',ROOT/'artifacts/merge-offline.ps1')
@@ -70,6 +86,10 @@ def main():
     for name in [f'offline-parts-{VERSION}.json',f'offline-bundle-{VERSION}.json','merge-offline.ps1']:
         path=ROOT/'artifacts'/name;checks.append((path,sha(path)))
     (ROOT/'artifacts/SHA256SUMS.txt').write_text(''.join(f'{digest}  {path.name}\n' for path,digest in checks),encoding='ascii')
+    if args.upload_release:
+        small=[APK,APK.with_suffix('.apk.sha256'),ROOT/f'artifacts/offline-parts-{VERSION}.json',
+               ROOT/f'artifacts/offline-bundle-{VERSION}.json',ROOT/'artifacts/merge-offline.ps1',ROOT/'artifacts/SHA256SUMS.txt']
+        subprocess.run(['gh','release','upload',args.upload_release,'--repo',args.repo,*map(str,small),'--clobber'],check=True)
     print(json.dumps(release,indent=2),flush=True)
 
 if __name__=='__main__':main()

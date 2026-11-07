@@ -2,6 +2,7 @@
 import concurrent.futures
 import hashlib
 import json
+import os
 from pathlib import Path
 import time
 import urllib.request
@@ -30,7 +31,7 @@ def download(item):
                 # The official MNN ModelScope mirror serves identical large blobs;
                 # accept them only against the pinned Hugging Face SHA-256.
                 url = (f"https://modelscope.cn/models/MNN/Qwen3-VL-8B-Instruct-MNN/resolve/master/{name}"
-                       if expected else f"https://huggingface.co/{REPO}/resolve/{REVISION}/{name}?download=true")
+                       if expected and os.environ.get('SEE_ENGLISH_DOWNLOAD_MIRROR','modelscope')=='modelscope' else f"https://huggingface.co/{REPO}/resolve/{REVISION}/{name}?download=true")
                 request = urllib.request.Request(
                     url,
                     headers={"Range": f"bytes={start}-", "User-Agent": "EnglishCamera-LocalEvaluation/1.0"},

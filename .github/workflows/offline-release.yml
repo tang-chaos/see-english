@@ -1,0 +1,40 @@
+name: Package offline model release
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: offline-release-v0.8.5
+  cancel-in-progress: false
+
+jobs:
+  package:
+    # Standard public-repository runner; no paid large runner or artifact storage.
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - name: Check out reviewed source
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Check pinned APK and runtime assets
+        run: |
+          python3 scripts/verify-assets.py
+          python3 - <<'PY'
+          import hashlib
+          from pathlib import Path
+          p=Path('artifacts/see-english-0.8.5-arm64-debug.apk')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==p.with_suffix('.apk.sha256').read_text().strip()
+          PY
+          df -h .
+      - name: Fetch public pinned model
+        env:
+          SEE_ENGLISH_DOWNLOAD_MIRROR: huggingface
+        run: python3 -u scripts/download-vlm.py
+      - name: Package and upload verified volumes to draft Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 -u scripts/package-offline.py --upload-release v0.8.5 --repo "$GITHUB_REPOSITORY"
