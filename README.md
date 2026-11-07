@@ -14,7 +14,8 @@
 ## 下载与安装
 
 - **只更新 APP**：[最新 APK](artifacts/see-english-0.8.5-arm64-debug.apk)（约 40MB）。已有模型和本地收藏可以沿用。
-- **首次使用模型识别**：[完整离线套装与分卷下载](https://github.com/tang-chaos/see-english/releases/tag/v0.8.5)。模型约 5.45GB，已包含在分卷套装中，无需 API Key。
+- **从官方源下载模型（推荐）**：[小体积下载指引包](https://github.com/tang-chaos/see-english/releases/download/v0.8.5/see-english-0.8.5-model-download-guide.zip)。解压后双击脚本，在自己的电脑上下载并校验约 5.45GB 模型，不运行 Actions、不需要 API Key。[详细指引](docs/model-download.md)。
+- **可选完整离线套装**：[套装与分卷下载](https://github.com/tang-chaos/see-english/releases/tag/v0.8.5)。已包含 APK 与模型，下载后无需再从模型源下载。
 - [安装、分卷合并与存储说明](docs/offline-install.txt)。离线套装是 APK＋模型文件夹，模型不会被塞进一个超大 APK。
 
 需要 Android 8.0+、ARM64 手机。8B 模型对内存、存储和算力要求高，低内存手机可能无法完成推理；朗读需要系统已经安装离线英语语音。构建产物是 **debug 测试包**，适合个人体验与开发参考，尚未作为应用商店正式产品发布。其他人自行构建的签名与这里提供的 APK 不同，不能保证直接覆盖安装。

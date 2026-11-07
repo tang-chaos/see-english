@@ -40,6 +40,8 @@
 !/artifacts/README.md
 !/artifacts/see-english-0.8.5-arm64-debug.apk
 !/artifacts/see-english-0.8.5-arm64-debug.apk.sha256
+!/artifacts/see-english-0.8.5-model-download-guide.zip
+!/artifacts/see-english-0.8.5-model-download-guide.zip.sha256
 !/artifacts/verification-0.8.5.json
 !/artifacts/offline-bundle-0.8.5.json
 **/__pycache__/
