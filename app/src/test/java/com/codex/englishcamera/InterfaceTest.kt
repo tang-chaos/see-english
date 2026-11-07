@@ -1,6 +1,7 @@
 package com.codex.englishcamera
 
 import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.graphics.Canvas
 import android.os.Looper
 import android.view.View
@@ -194,6 +195,56 @@ class InterfaceTest {
             assertTrue(texts().none { it in removed })
             click("相机识别")
             screenshot("20-beautified-camera-ui-fixture")
+            // Opt-in documentation rendering: genuine desktop outputs through the production
+            // callback and Compose screens. This is not Android native-model inference.
+            if(System.getenv("SEE_ENGLISH_RENDER_DOCS")=="1") {
+                fun captureWindows(name: String) {
+                    layout()
+                    val output=Bitmap.createBitmap(786,1702,Bitmap.Config.ARGB_8888)
+                    val canvas=Canvas(output)
+                    roots().asReversed().forEach { root ->
+                        root.measure(View.MeasureSpec.makeMeasureSpec(786,View.MeasureSpec.EXACTLY),View.MeasureSpec.makeMeasureSpec(1702,View.MeasureSpec.EXACTLY))
+                        root.layout(0,0,786,1702)
+                    }
+                    shadowOf(Looper.getMainLooper()).idleFor(Duration.ofMillis(100))
+                    roots().asReversed().forEach { it.draw(canvas) }
+                    File("build/verification/$name.png").outputStream().use { output.compress(Bitmap.CompressFormat.PNG,100,it) }
+                }
+                listOf("desk","kitchen").forEach { scene ->
+                    activity.store.ui=LearningState(page=0)
+                    activity.store.clearHistory();activity.store.notice(null)
+                    shadowOf(Looper.getMainLooper()).idleFor(Duration.ofSeconds(5));layout()
+                    val record=org.json.JSONObject(File("../docs/media/$scene-result.json").readText())
+                    val original=BitmapFactory.decodeFile(File("../docs/media/$scene-original.jpg").absolutePath)
+                    val raw=record.getString("output")
+                    val terms=parseVlmTerms(raw)
+                    assertTrue(terms.isNotEmpty())
+                    val elapsed=((record.getDouble("load_seconds")+record.getDouble("inference_seconds"))*1000).toLong()
+                    activity.store.ui=LearningState(frozen=true,bitmap=original,hasFrame=true,modelReady=true)
+                    activity.store.offlineInference={ _,_->VlmAnswer(raw,terms,elapsed) }
+                    activity.store.offlineVision()
+                    repeat(50) { layout();if(activity.store.ui.pending)Thread.sleep(10) }
+                    assertFalse(activity.store.ui.pending)
+                    assertEquals(terms,activity.store.ui.vlmAnswer!!.terms)
+                    assertTrue(activity.store.ui.found.isEmpty()) // Do not invent VLM boxes.
+                    activity.store.notice(null)
+                    captureWindows("doc-$scene-camera-replay")
+                    click("模型识别")
+                    activity.store.ui=activity.store.ui.copy(modelReady=true);layout()
+                    captureWindows("doc-$scene-model-replay")
+                    activity.store.page(2);layout()
+                    val word=terms.mapNotNull { it.word(activity.store.lexicon) }.firstOrNull {
+                        it.key==if(scene=="desk")"laptop" else "avocado"
+                    } ?: terms.mapNotNull { it.word(activity.store.lexicon) }.first()
+                    activity.store.select(word.key);layout()
+                    assertTrue(texts().contains(word.english));assertTrue(texts().contains(word.ipa))
+                    captureWindows("doc-$scene-word-replay")
+                    activity.store.select(null);layout()
+                    File("build/verification/doc-$scene-selection.json").writeText(org.json.JSONObject()
+                        .put("key",word.key).put("english",word.english).put("ipa",word.ipa).put("chinese",word.chinese)
+                        .put("desktop_inference_replay",true).put("physical_device",false).toString(2))
+                }
+            }
         } finally { controller.pause().stop().destroy() }
     }
 }

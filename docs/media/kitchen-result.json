@@ -1,0 +1,33 @@
+{
+  "model": "taobao-mnn/Qwen3-VL-8B-Instruct-MNN",
+  "runtime": "MNN 3.6.2 Windows CPU",
+  "source_image": "docs/media/kitchen-original.jpg",
+  "original_size": [
+    1600,
+    1600
+  ],
+  "input_size": [
+    672,
+    672
+  ],
+  "prompt": "Name the clearly visible physical objects or products. Give short English names and Chinese meanings. Use readable package text. Treat printed figures as artwork. Identify visible body parts specifically. Do not guess unclear objects. Return only JSON: {\"objects\":[{\"english\":\"name\",\"chinese\":\"中文\"}]}. At most 10 objects.",
+  "output": "{\"objects\":[{\"english\":\"avocado\",\"chinese\":\"牛油果\"},{\"english\":\"egg\",\"chinese\":\"鸡蛋\"},{\"english\":\"tomato\",\"chinese\":\"番茄\"},{\"english\":\"green onion\",\"chinese\":\"葱\"},{\"english\":\"knife\",\"chinese\":\"刀\"},{\"english\":\"mushroom\",\"chinese\":\"蘑菇\"},{\"english\":\"spinach\",\"chinese\":\"菠菜\"},{\"english\":\"chili pepper\",\"chinese\":\"辣椒\"},{\"english\":\"pan\",\"chinese\":\"平底锅\"}]}\n",
+  "load_seconds": 60.36610250000376,
+  "inference_seconds": 133.56005869992077,
+  "threads": 4,
+  "max_new_tokens": 384,
+  "metrics": {
+    "vision_us": 29361030,
+    "prefill_us": 66112991,
+    "decode_us": 37928290,
+    "prompt_len": 516,
+    "gen_seq_len": 99,
+    "pixels_mp": 0.45158398151397705
+  },
+  "input_mode": "path",
+  "status": "LlmStatus.NORMAL_FINISHED",
+  "device_validation": false,
+  "model_revision": "890e672be412e84d34bc318925aa4b7b61ad24c7",
+  "image_source": "https://unsplash.com/photos/avocado-tomatoes-eggs-mushrooms-spring-onions-and-leaves-uQs1802D0CQ",
+  "note": "Actual desktop CPU inference; not Android device validation or an overall accuracy benchmark."
+}

@@ -6,6 +6,8 @@
 
 这次找了一张物品比较多的桌面照片试了试。现有 8B 模型实际返回了 7 类：相机、笔记本电脑、笔记本、手表、笔、眼镜、植物。配图里的结果来自真实离线推理，没有补上模型没说出的物品。
 
+另外试了一张厨房照片，返回牛油果、鸡蛋、番茄等 9 类。新增的 APP 效果图用真实输出回放原生界面，已标明非真机截图。
+
 先说我自己比较喜欢的地方 🌱
 · 可以离线运行，照片在本机处理，不用填 API Key。
 · 实时相机负责常见物品，拍照后的「模型识别」可以认识更多东西。
@@ -29,4 +31,4 @@ GitHub：https://github.com/tang-chaos/see-english
 
 ---
 
-配图顺序建议：`media/xhs-01-cover.png` → `media/xhs-02-example.png` → `media/xhs-03-status.png`。这些是分享排版，不冒充手机实拍截图。原图许可见 [素材说明](media/README.md)，原始识别记录见 [demo.md](demo.md)。
+配图顺序建议：`media/xhs-01-cover.png` → `screenshots/desk-app-example.png` → `screenshots/kitchen-app-example.png` → `media/xhs-02-example.png` → `media/xhs-03-status.png`。这些是分享排版，不冒充手机实拍截图。原图许可见 [素材说明](media/README.md)，原始识别记录见 [demo.md](demo.md)。

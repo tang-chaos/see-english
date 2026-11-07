@@ -27,13 +27,15 @@
 
 需要 Android 8.0+、ARM64 手机。8B 模型对内存、存储和算力要求高，低内存手机可能无法完成推理；朗读需要系统已经安装离线英语语音。构建产物是 **debug 测试包**，适合个人体验与开发参考，尚未作为应用商店正式产品发布。其他人自行构建的签名与这里提供的 APK 不同，不能保证直接覆盖安装。
 
-## 公开照片示例
+## APP 识词效果
 
-![公开授权桌面照片](docs/media/desk-original.jpg)
+| 桌面物品 → laptop 词卡 | 厨房食材 → avocado 词卡 |
+| --- | --- |
+| ![桌面识词效果](docs/screenshots/desk-app-example.png) | ![厨房识词效果](docs/screenshots/kitchen-app-example.png) |
 
-此照片包含相机、笔记本电脑、手表、眼镜、笔记本、笔等多类物品。图片来自 [Unsplash](https://unsplash.com/photos/black-framed-eyeglasses-beside-black-leather-case-and-macbook-pro-M5BxrU2nSTM)，按 [Unsplash License](https://unsplash.com/license) 使用；已去除图片 EXIF 元数据。
+两张照片使用实际 8B 模型离线推理，分别返回 7 类与 9 类物品；英文、音标、中文和按钮由当前 APP 的原生界面代码渲染。**这是电脑推理结果的 APP 界面回放，不是手机摄像头现场截图**，图内已标注，不作为手机速度或总体准确率证据。音标来自内置词典，不补画模型没返回的定位框。
 
-实际模型输出与评测环境见 [示例记录](docs/demo.md)。电脑端测试不等于 Android 真机的速度或准确率，示例不会补写模型没有识别出的物品。
+[查看原图、原始输出与生成方式](docs/screenshots/README.md)。照片来自 Unsplash，出处和许可见 [素材说明](docs/media/README.md)；更多结果与遗漏说明见 [示例记录](docs/demo.md)。
 
 ## 当前不足
 

@@ -1,0 +1,46 @@
+[
+  {
+    "scene": "desk",
+    "image": "docs/screenshots/desk-app-example.png",
+    "sha256": "eb561f219c9cfaeb5ec9139bee9edccf6befaa3845dfdbc229d1f16c73e0f428",
+    "source_image": "docs/media/desk-original.jpg",
+    "source_image_sha256": "f67b0db64ae3dca9a71f8df9586fdca2ce495612ee41e6b0af2761cc6a98e1fa",
+    "result_record": "docs/media/desk-result.json",
+    "result_record_sha256": "5a94b70dced015ed310b002fc990739f0fa36bee93f82f8b75d9811c608271b4",
+    "returned_terms": 7,
+    "selected_word": {
+      "key": "laptop",
+      "english": "laptop",
+      "ipa": "/ˈlæptɑːp/",
+      "chinese": "笔记本电脑",
+      "desktop_inference_replay": true,
+      "physical_device": false
+    },
+    "model_revision": "890e672be412e84d34bc318925aa4b7b61ad24c7",
+    "production_ui_rendered": true,
+    "physical_device_screenshot": false,
+    "renderer": "Robolectric native graphics; desktop inference replay through LearningStore callback"
+  },
+  {
+    "scene": "kitchen",
+    "image": "docs/screenshots/kitchen-app-example.png",
+    "sha256": "1da63f0e74d8c275f10adb428692158e123fa0d3e0084a623fd6f36c030887be",
+    "source_image": "docs/media/kitchen-original.jpg",
+    "source_image_sha256": "b17d822e39e64907474b626a69a791bc75bc74b2bacc514dbe433a9ba53b0ae2",
+    "result_record": "docs/media/kitchen-result.json",
+    "result_record_sha256": "84d4124544a1ca8a162b8d51d976122fee2ae1d8640b541698bba885c6a0f28b",
+    "returned_terms": 9,
+    "selected_word": {
+      "key": "avocado",
+      "english": "avocado",
+      "ipa": "/ˌævəˈkɑːdoʊ/",
+      "chinese": "牛油果",
+      "desktop_inference_replay": true,
+      "physical_device": false
+    },
+    "model_revision": "890e672be412e84d34bc318925aa4b7b61ad24c7",
+    "production_ui_rendered": true,
+    "physical_device_screenshot": false,
+    "renderer": "Robolectric native graphics; desktop inference replay through LearningStore callback"
+  }
+]
