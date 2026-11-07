@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 VERSION='0.8.5'
 APK=ROOT/f'artifacts/see-english-{VERSION}-arm64-debug.apk'
-PART_BYTES=1_900_000_000  # Every release asset must be below 2 GiB.
+PART_BYTES=512*1024*1024  # Every release asset must be below 2 GiB.
 
 def sha(path):
     with path.open('rb') as stream:return hashlib.file_digest(stream,'sha256').hexdigest()
