@@ -13,10 +13,17 @@
 
 ## 下载与安装
 
-- **只更新 APP**：[最新 APK](artifacts/see-english-0.8.5-arm64-debug.apk)（约 40MB）。已有模型和本地收藏可以沿用。
-- **从官方源下载模型（推荐）**：[小体积下载指引包](https://github.com/tang-chaos/see-english/releases/download/v0.8.5/see-english-0.8.5-model-download-guide.zip)。解压后双击脚本，在自己的电脑上下载并校验约 5.45GB 模型，不运行 Actions、不需要 API Key。[详细指引](docs/model-download.md)。
-- **可选完整离线套装**：[套装与分卷下载](https://github.com/tang-chaos/see-english/releases/tag/v0.8.5)。已包含 APK 与模型，下载后无需再从模型源下载。
-- [安装、分卷合并与存储说明](docs/offline-install.txt)。离线套装是 APK＋模型文件夹，模型不会被塞进一个超大 APK。
+**完整离线包：夸克网盘链接待上传后补充。** 提取码（如有）将一并放在这里。
+
+下载整个 `看见英语-0.8.5-完整离线包` 文件夹，里面已经包含 APK 和完整模型，不需要下载脚本或分卷合并。
+
+1. 安装文件夹里的 `see-english-0.8.5-arm64-debug.apk`。
+2. 打开 APP：「模型识别 → 识别设置 → 导入离线识别文件」。
+3. 选择下载文件夹里的 `model` 文件夹，等待导入和校验完成，即可拍照识别。
+
+已有正确模型的用户，只需覆盖安装 [最新 APK](artifacts/see-english-0.8.5-arm64-debug.apk)（约 40MB），不用重复导入模型。[详细安装说明](docs/offline-install.txt)。
+
+模型约 5.45GB，包含在完整文件夹中；首次导入会同时保留下载文件与 APP 内副本，建议手机预留 15GB 以上可用存储。无需 API Key、Python 或 Actions。
 
 需要 Android 8.0+、ARM64 手机。8B 模型对内存、存储和算力要求高，低内存手机可能无法完成推理；朗读需要系统已经安装离线英语语音。构建产物是 **debug 测试包**，适合个人体验与开发参考，尚未作为应用商店正式产品发布。其他人自行构建的签名与这里提供的 APK 不同，不能保证直接覆盖安装。
 
@@ -51,7 +58,7 @@ macOS/Linux：在 `local.properties` 设置自己的 `sdk.dir` 后运行：
 ./gradlew :app:assembleDebug :app:testDebugUnitTest :app:lintDebug -PtargetAbi=arm64-v8a
 ```
 
-Windows 的 `scripts/build.ps1` 会生成最新 APK 与 SHA-256，旧包不会进入版本管理。USB 安装使用 `install-phone.cmd`。大模型文件未进入 Git 历史；可下载完整离线套装，或运行 `python scripts/download-vlm.py` 下载固定版本，再运行 `python scripts/package-offline.py` 生成并校验套装。
+Windows 的 `scripts/build.ps1` 会生成最新 APK 与 SHA-256，旧包不会进入版本管理。USB 安装使用 `install-phone.cmd`。大模型文件不进入 Git 历史；普通用户从上方网盘下载完整文件夹。开发者也可自行运行 `python scripts/download-vlm.py` 下载固定版本。此前的 Actions 打包工作流已停用。
 
 技术栈：Kotlin / Jetpack Compose / CameraX / MediaPipe EfficientDet-Lite0 / MNN。核心状态在 `LearningStore.kt`，相机入口在 `CameraPage.kt`，模型独立进程在 `OfflineVisionService.kt`，模型哈希清单在 `app/src/main/assets/vlm-model.json`。
 

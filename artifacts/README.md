@@ -1,10 +1,7 @@
 # 最新版本 0.8.5
 
-此目录只保留最新 APP、校验值和公开验证摘要。完整 8B 套装与分卷为本地发布产物，不写入 Git 历史，请从 [v0.8.5 Release](https://github.com/tang-chaos/see-english/releases/tag/v0.8.5) 下载。
+公开 Git 仓库保留最新 APK、校验值与验证摘要。完整模型不写入 Git 历史。
 
-- APK：`see-english-0.8.5-arm64-debug.apk`，约 40MB，不含 5.45GB 模型。
-- 官方源下载指引：`see-english-0.8.5-model-download-guide.zip`，小体积脚本与清单，在自己的电脑从官方仓库下载并校验模型，不使用 Actions。
-- 第一次部署：下载 Release 的全部 `.zip.partXX`、分卷清单和 `merge-offline.ps1`，合并解压后安装。
-- 已装过模型：通常只覆盖安装最新 APK，已有数据与模型保留。
+开发者本地已整理 `看见英语-0.8.5-完整离线包` 文件夹，包含最新 APK、完整 `model` 文件夹和简短安装说明，供上传夸克网盘。该大文件夹不会提交到 GitHub。网盘地址请查看项目 README，目前待上传后补充。
 
-旧版本只在开发者本地归档，不随本仓库分发。当前为个人兴趣测试版。
+已有正确模型的用户，只需更新 `see-english-0.8.5-arm64-debug.apk`。旧 Release 分卷及官方源下载指引仅作备份，普通用户按 README 的网盘方案安装即可。
