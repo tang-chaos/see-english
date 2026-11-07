@@ -1,0 +1,347 @@
+# Curated Open Images learning cards; development IPA
+adhesive tape|adhesive tape|/ədˈhiːsɪv teɪp/|胶带
+alarm clock|alarm clock|/əˈlɑːrm klɑːk/|闹钟
+ambulance|ambulance|/ˈæmbjələns/|救护车
+axe|axe|/æks/|斧头
+bagel|bagel|/ˈbeɪɡəl/|贝果
+balloon|balloon|/bəˈluːn/|气球
+adhesive bandage|adhesive bandage|/ədˈhiːsɪv ˈbændɪdʒ/|创可贴
+barrel|barrel|/ˈbærəl/|桶
+bathtub|bathtub|/ˈbæθtʌb/|浴缸
+beaker|beaker|/ˈbiːkər/|烧杯
+bell pepper|bell pepper|/ˈbel pepər/|甜椒
+belt|belt|/belt/|腰带
+bicycle helmet|bicycle helmet|/ˈbaɪsɪkəl ˈhelmɪt/|自行车头盔
+bicycle wheel|bicycle wheel|/ˈbaɪsɪkəl wiːl/|自行车轮
+billboard|billboard|/ˈbɪlbɔːrd/|广告牌
+binoculars|binoculars|/bɪˈnɑːkjələrz/|双筒望远镜
+blender|blender|/ˈblendər/|搅拌机
+bookcase|bookcase|/ˈbʊkkeɪs/|书柜
+boot|boot|/buːt/|靴子
+bottle opener|bottle opener|/ˈbɑːtəl ˌoʊpənər/|开瓶器
+box|box|/bɑːks/|盒子
+bread|bread|/bred/|面包
+briefcase|briefcase|/ˈbriːfkeɪs/|公文包
+building|building|/ˈbɪldɪŋ/|建筑物
+burrito|burrito|/bəˈriːtoʊ/|墨西哥卷饼
+cabbage|cabbage|/ˈkæbɪdʒ/|卷心菜
+calculator|calculator|/ˈkælkjəleɪtər/|计算器
+camera|camera|/ˈkæmərə/|相机
+can opener|can opener|/ˈkæn ˌoʊpənər/|开罐器
+candle|candle|/ˈkændəl/|蜡烛
+candy|candy|/ˈkændi/|糖果
+cantaloupe|cantaloupe|/ˈkæntəloʊp/|哈密瓜
+cart|cart|/kɑːrt/|推车
+ceiling fan|ceiling fan|/ˈsiːlɪŋ fæn/|吊扇
+cheese|cheese|/tʃiːz/|奶酪
+chest of drawers|chest of drawers|/ˌtʃest əv ˈdrɔːrz/|抽屉柜
+chicken|chicken|/ˈtʃɪkɪn/|鸡
+chopsticks|chopsticks|/ˈtʃɑːpstɪks/|筷子
+christmas tree|Christmas tree|/ˈkrɪsməs triː/|圣诞树
+coat|coat|/koʊt/|外套
+coconut|coconut|/ˈkoʊkənʌt/|椰子
+coffee|coffee|/ˈkɔːfi/|咖啡
+coffee table|coffee table|/ˈkɔːfi ˌteɪbəl/|茶几
+coffee maker|coffee maker|/ˈkɔːfi ˌmeɪkər/|咖啡机
+coin|coin|/kɔɪn/|硬币
+computer monitor|computer monitor|/kəmˈpjuːtər ˌmɑːnɪtər/|电脑显示器
+cookie|cookie|/ˈkʊki/|曲奇饼干
+corded phone|corded phone|/ˈkɔːrdɪd foʊn/|有线电话
+countertop|countertop|/ˈkaʊntərtɑːp/|台面
+crab|crab|/kræb/|螃蟹
+croissant|croissant|/krəˈsɑːnt/|牛角面包
+cucumber|cucumber|/ˈkjuːkʌmbər/|黄瓜
+cupboard|cupboard|/ˈkʌbərd/|橱柜
+curtain|curtain|/ˈkɝːtən/|窗帘
+cutting board|cutting board|/ˈkʌtɪŋ bɔːrd/|砧板
+desk|desk|/desk/|书桌
+diaper|diaper|/ˈdaɪpər/|尿布
+dice|dice|/daɪs/|骰子
+dishwasher|dishwasher|/ˈdɪʃwɑːʃər/|洗碗机
+doll|doll|/dɑːl/|玩偶
+door|door|/dɔːr/|门
+door handle|door handle|/ˈdɔːr ˌhændəl/|门把手
+drawer|drawer|/drɔːr/|抽屉
+dress|dress|/dres/|连衣裙
+drill|drill|/drɪl/|电钻
+drinking straw|drinking straw|/ˈdrɪŋkɪŋ strɔː/|吸管
+drum|drum|/drʌm/|鼓
+dumbbell|dumbbell|/ˈdʌmbel/|哑铃
+earrings|earrings|/ˈɪrɪŋz/|耳环
+egg|egg|/eɡ/|鸡蛋
+envelope|envelope|/ˈenvəloʊp/|信封
+eraser|eraser|/ɪˈreɪsər/|橡皮擦
+filing cabinet|filing cabinet|/ˈfaɪlɪŋ ˌkæbɪnət/|文件柜
+fireplace|fireplace|/ˈfaɪərpleɪs/|壁炉
+fish|fish|/fɪʃ/|鱼
+flag|flag|/flæɡ/|旗子
+flashlight|flashlight|/ˈflæʃlaɪt/|手电筒
+flower|flower|/ˈflaʊər/|花
+flowerpot|flowerpot|/ˈflaʊərpɑːt/|花盆
+flute|flute|/fluːt/|长笛
+food processor|food processor|/ˈfuːd ˌprɑːsesər/|食物料理机
+footwear|footwear|/ˈfʊtwer/|鞋类
+fountain|fountain|/ˈfaʊntən/|喷泉
+french fries|French fries|/ˌfrentʃ ˈfraɪz/|炸薯条
+frying pan|frying pan|/ˈfraɪɪŋ pæn/|平底煎锅
+gas stove|gas stove|/ˈɡæs stoʊv/|燃气灶
+glasses|glasses|/ˈɡlæsɪz/|眼镜
+glove|glove|/ɡlʌv/|手套
+goggles|goggles|/ˈɡɑːɡəlz/|护目镜
+grape|grape|/ɡreɪp/|葡萄
+grapefruit|grapefruit|/ˈɡreɪpfruːt/|葡萄柚
+guitar|guitar|/ɡɪˈtɑːr/|吉他
+hamburger|hamburger|/ˈhæmbɝːɡər/|汉堡包
+hammer|hammer|/ˈhæmər/|锤子
+hat|hat|/hæt/|帽子
+headphones|headphones|/ˈhedfoʊnz/|耳机
+heater|heater|/ˈhiːtər/|取暖器
+helicopter|helicopter|/ˈhelɪkɑːptər/|直升机
+helmet|helmet|/ˈhelmɪt/|头盔
+high heels|high heels|/ˌhaɪ ˈhiːlz/|高跟鞋
+house|house|/haʊs/|房子
+humidifier|humidifier|/hjuːˈmɪdəfaɪər/|加湿器
+ice cream|ice cream|/ˈaɪs kriːm/|冰淇淋
+crib|crib|/krɪb/|婴儿床
+jacket|jacket|/ˈdʒækɪt/|夹克
+jeans|jeans|/dʒiːnz/|牛仔裤
+jug|jug|/dʒʌɡ/|大水壶
+juice|juice|/dʒuːs/|果汁
+kettle|kettle|/ˈketəl/|烧水壶
+ladder|ladder|/ˈlædər/|梯子
+ladle|ladle|/ˈleɪdəl/|长柄汤勺
+lamp|lamp|/læmp/|灯
+lantern|lantern|/ˈlæntərn/|灯笼
+lemon|lemon|/ˈlemən/|柠檬
+light bulb|light bulb|/ˈlaɪt bʌlb/|灯泡
+light switch|light switch|/ˈlaɪt swɪtʃ/|电灯开关
+lipstick|lipstick|/ˈlɪpstɪk/|口红
+lobster|lobster|/ˈlɑːbstər/|龙虾
+mango|mango|/ˈmæŋɡoʊ/|芒果
+measuring cup|measuring cup|/ˈmeʒərɪŋ kʌp/|量杯
+fan|fan|/fæn/|风扇
+microphone|microphone|/ˈmaɪkrəfoʊn/|麦克风
+milk|milk|/mɪlk/|牛奶
+mirror|mirror|/ˈmɪrər/|镜子
+mixer|mixer|/ˈmɪksər/|搅拌器
+muffin|muffin|/ˈmʌfɪn/|松饼
+mushroom|mushroom|/ˈmʌʃruːm/|蘑菇
+musical keyboard|musical keyboard|/ˈmjuːzɪkəl ˈkiːbɔːrd/|电子琴
+nail|nail|/neɪl/|钉子
+necklace|necklace|/ˈnekləs/|项链
+nightstand|nightstand|/ˈnaɪtstænd/|床头柜
+pancake|pancake|/ˈpænkeɪk/|薄煎饼
+paper cutter|paper cutter|/ˈpeɪpər ˌkʌtər/|裁纸刀
+paper towel|paper towel|/ˈpeɪpər ˌtaʊəl/|厨房纸巾
+pasta|pasta|/ˈpɑːstə/|意大利面
+peach|peach|/piːtʃ/|桃子
+pear|pear|/per/|梨
+pen|pen|/pen/|笔
+pencil case|pencil case|/ˈpensəl keɪs/|铅笔盒
+pencil sharpener|pencil sharpener|/ˈpensəl ˌʃɑːrpənər/|卷笔刀
+perfume|perfume|/pərˈfjuːm/|香水
+piano|piano|/piˈænoʊ/|钢琴
+picnic basket|picnic basket|/ˈpɪknɪk ˌbæskɪt/|野餐篮
+picture frame|picture frame|/ˈpɪktʃər freɪm/|相框
+pillow|pillow|/ˈpɪloʊ/|枕头
+pineapple|pineapple|/ˈpaɪnæpəl/|菠萝
+pizza cutter|pizza cutter|/ˈpiːtsə ˌkʌtər/|披萨刀
+plastic bag|plastic bag|/ˈplæstɪk bæɡ/|塑料袋
+plate|plate|/pleɪt/|盘子
+platter|platter|/ˈplætər/|大浅盘
+pomegranate|pomegranate|/ˈpɑːməɡrænɪt/|石榴
+popcorn|popcorn|/ˈpɑːpkɔːrn/|爆米花
+poster|poster|/ˈpoʊstər/|海报
+potato|potato|/pəˈteɪtoʊ/|土豆
+plugs and sockets|plugs and sockets|/plʌɡz ən ˈsɑːkɪts/|插头与插座
+pressure cooker|pressure cooker|/ˈpreʃər ˌkʊkər/|高压锅
+pretzel|pretzel|/ˈpretsəl/|椒盐卷饼
+printer|printer|/ˈprɪntər/|打印机
+pumpkin|pumpkin|/ˈpʌmpkɪn/|南瓜
+radish|radish|/ˈrædɪʃ/|萝卜
+ring binder|ring binder|/ˈrɪŋ ˌbaɪndər/|活页夹
+roller skates|roller skates|/ˈroʊlər skeɪts/|轮滑鞋
+ruler|ruler|/ˈruːlər/|尺子
+salad|salad|/ˈsæləd/|沙拉
+sandal|sandal|/ˈsændəl/|凉鞋
+saucer|saucer|/ˈsɔːsər/|茶碟
+scale|scale|/skeɪl/|秤
+scarf|scarf|/skɑːrf/|围巾
+screwdriver|screwdriver|/ˈskruːdraɪvər/|螺丝刀
+seat belt|seat belt|/ˈsiːt belt/|安全带
+tray|tray|/treɪ/|托盘
+sewing machine|sewing machine|/ˈsoʊɪŋ məˌʃiːn/|缝纫机
+shelf|shelf|/ʃelf/|架子
+shirt|shirt|/ʃɝːt/|衬衫
+shorts|shorts|/ʃɔːrts/|短裤
+shower|shower|/ˈʃaʊər/|淋浴器
+shrimp|shrimp|/ʃrɪmp/|虾
+skirt|skirt|/skɝːt/|裙子
+slow cooker|slow cooker|/ˈsloʊ ˌkʊkər/|慢炖锅
+soap dispenser|soap dispenser|/ˈsoʊp dɪˌspensər/|皂液器
+sock|sock|/sɑːk/|袜子
+spatula|spatula|/ˈspætʃələ/|锅铲
+spice rack|spice rack|/ˈspaɪs ræk/|调料架
+stairs|stairs|/sterz/|楼梯
+stapler|stapler|/ˈsteɪplər/|订书机
+stool|stool|/stuːl/|凳子
+strawberry|strawberry|/ˈstrɔːberi/|草莓
+street light|street light|/ˈstriːt laɪt/|路灯
+suit|suit|/suːt/|西装
+sunglasses|sunglasses|/ˈsʌnɡlæsɪz/|太阳镜
+sushi|sushi|/ˈsuːʃi/|寿司
+swimming pool|swimming pool|/ˈswɪmɪŋ puːl/|游泳池
+tablet|tablet|/ˈtæblət/|平板电脑
+taco|taco|/ˈtɑːkoʊ/|墨西哥玉米饼
+faucet|faucet|/ˈfɔːsɪt/|水龙头
+taxi|taxi|/ˈtæksi/|出租车
+tea|tea|/tiː/|茶
+teapot|teapot|/ˈtiːpɑːt/|茶壶
+telephone|telephone|/ˈteləfoʊn/|电话
+tent|tent|/tent/|帐篷
+tin can|tin can|/ˈtɪn kæn/|金属罐
+tire|tire|/taɪər/|轮胎
+toilet paper|toilet paper|/ˈtɔɪlət ˌpeɪpər/|卫生纸
+tomato|tomato|/təˈmeɪtoʊ/|番茄
+towel|towel|/ˈtaʊəl/|毛巾
+traffic sign|traffic sign|/ˈtræfɪk saɪn/|交通标志
+tree|tree|/triː/|树
+tripod|tripod|/ˈtraɪpɑːd/|三脚架
+trousers|trousers|/ˈtraʊzərz/|长裤
+van|van|/væn/|厢式货车
+license plate|license plate|/ˈlaɪsəns pleɪt/|车牌
+violin|violin|/ˌvaɪəˈlɪn/|小提琴
+waffle|waffle|/ˈwɑːfəl/|华夫饼
+waffle iron|waffle iron|/ˈwɑːfəl ˌaɪərn/|华夫饼机
+wardrobe|wardrobe|/ˈwɔːrdroʊb/|衣柜
+washing machine|washing machine|/ˈwɑːʃɪŋ məˌʃiːn/|洗衣机
+trash can|trash can|/ˈtræʃ kæn/|垃圾桶
+watch|watch|/wɑːtʃ/|手表
+watermelon|watermelon|/ˈwɔːtərmelən/|西瓜
+wheel|wheel|/wiːl/|轮子
+wheelchair|wheelchair|/ˈwiːltʃer/|轮椅
+whisk|whisk|/wɪsk/|打蛋器
+whiteboard|whiteboard|/ˈwaɪtbɔːrd/|白板
+window|window|/ˈwɪndoʊ/|窗户
+window blind|window blind|/ˈwɪndoʊ blaɪnd/|百叶窗
+wine rack|wine rack|/ˈwaɪn ræk/|酒架
+winter melon|winter melon|/ˈwɪntər ˌmelən/|冬瓜
+wok|wok|/wɑːk/|炒锅
+wrench|wrench|/rentʃ/|扳手
+zucchini|zucchini|/zuˈkiːni/|西葫芦
+accordion|accordion|/əˈkɔːrdiən/|手风琴
+artichoke|artichoke|/ˈɑːrtɪtʃoʊk/|洋蓟
+balance beam|balance beam|/ˈbæləns biːm/|平衡木
+banjo|banjo|/ˈbændʒoʊ/|班卓琴
+barge|barge|/bɑːrdʒ/|驳船
+bathroom cabinet|bathroom cabinet|/ˈbæθruːm ˌkæbɪnət/|浴室柜
+beehive|beehive|/ˈbiːhaɪv/|蜂箱
+bidet|bidet|/bɪˈdeɪ/|坐浴盆
+billiard table|billiard table|/ˈbɪljərd ˌteɪbəl/|台球桌
+bronze sculpture|bronze sculpture|/ˈbrɑːnz ˌskʌlptʃər/|青铜雕塑
+bust|bust|/bʌst/|半身像
+cake stand|cake stand|/ˈkeɪk stænd/|蛋糕架
+canoe|canoe|/kəˈnuː/|独木舟
+cassette deck|cassette deck|/kəˈset dek/|磁带播放机
+cat furniture|cat furniture|/ˈkæt ˌfɝːnɪtʃər/|猫用家具
+cello|cello|/ˈtʃeloʊ/|大提琴
+chainsaw|chainsaw|/ˈtʃeɪnsɔː/|链锯
+chime|chime|/tʃaɪm/|风铃
+chisel|chisel|/ˈtʃɪzəl/|凿子
+closet|closet|/ˈklɑːzɪt/|壁橱
+cocktail shaker|cocktail shaker|/ˈkɑːkteɪl ˌʃeɪkər/|调酒摇壶
+fig|fig|/fɪɡ/|无花果
+sunflower|sunflower|/ˈsʌnflaʊər/|向日葵
+cooking spray|cooking spray|/ˈkʊkɪŋ spreɪ/|食用喷雾油
+cosmetics|cosmetics|/kɑːzˈmetɪks/|化妆品
+cowboy hat|cowboy hat|/ˈkaʊbɔɪ hæt/|牛仔帽
+cream|cream|/kriːm/|奶油
+cricket ball|cricket ball|/ˈkrɪkɪt bɔːl/|板球
+crown|crown|/kraʊn/|王冠
+crutch|crutch|/krʌtʃ/|拐杖
+digital clock|digital clock|/ˈdɪdʒɪtəl klɑːk/|数字钟
+dog bed|dog bed|/ˈdɔːɡ bed/|狗窝垫
+face powder|face powder|/ˈfeɪs ˌpaʊdər/|粉饼
+tissue holder|tissue holder|/ˈtɪʃuː ˌhoʊldər/|纸巾盒
+fax machine|fax machine|/ˈfæks məˌʃiːn/|传真机
+fedora|fedora|/fɪˈdɔːrə/|软呢帽
+football|football|/ˈfʊtbɔːl/|橄榄球
+football helmet|football helmet|/ˈfʊtbɔːl ˌhelmɪt/|橄榄球头盔
+french horn|French horn|/ˌfrentʃ ˈhɔːrn/|圆号
+asparagus|asparagus|/əˈspærəɡəs/|芦笋
+golf ball|golf ball|/ˈɡɑːlf bɔːl/|高尔夫球
+golf cart|golf cart|/ˈɡɑːlf kɑːrt/|高尔夫球车
+gondola|gondola|/ˈɡɑːndələ/|贡多拉小船
+grinder|grinder|/ˈɡraɪndər/|研磨机
+guacamole|guacamole|/ˌɡwɑːkəˈmoʊli/|牛油果酱
+hair spray|hair spray|/ˈher spreɪ/|定型喷雾
+hand dryer|hand dryer|/ˈhænd ˌdraɪər/|干手机
+harmonica|harmonica|/hɑːrˈmɑːnɪkə/|口琴
+harp|harp|/hɑːrp/|竖琴
+harpsichord|harpsichord|/ˈhɑːrpsɪkɔːrd/|羽管键琴
+honeycomb|honeycomb|/ˈhʌnikoʊm/|蜂巢
+horizontal bar|horizontal bar|/ˌhɔːrɪˈzɑːntəl bɑːr/|单杠
+rowing machine|rowing machine|/ˈroʊɪŋ məˌʃiːn/|划船机
+hot tub|hot tub|/ˌhɑːt ˈtʌb/|按摩浴缸
+jet ski|jet ski|/ˈdʒet skiː/|水上摩托艇
+kitchen knife|kitchen knife|/ˈkɪtʃən naɪf/|菜刀
+lavender|lavender|/ˈlævəndər/|薰衣草
+lighthouse|lighthouse|/ˈlaɪthaʊs/|灯塔
+lily|lily|/ˈlɪli/|百合花
+limousine|limousine|/ˈlɪməziːn/|加长轿车
+loveseat|loveseat|/ˈlʌvsiːt/|双人沙发
+maple|maple|/ˈmeɪpəl/|枫树
+maracas|maracas|/məˈrɑːkəz/|沙锤
+miniskirt|miniskirt|/ˈmɪniskɝːt/|迷你裙
+mixing bowl|mixing bowl|/ˈmɪksɪŋ boʊl/|搅拌碗
+mug|mug|/mʌɡ/|马克杯
+oboe|oboe|/ˈoʊboʊ/|双簧管
+office building|office building|/ˈɔːfɪs ˌbɪldɪŋ/|办公楼
+organ|organ|/ˈɔːrɡən/|管风琴
+oyster|oyster|/ˈɔɪstər/|牡蛎
+paddle|paddle|/ˈpædəl/|船桨
+palm tree|palm tree|/ˈpɑːm triː/|棕榈树
+parachute|parachute|/ˈpærəʃuːt/|降落伞
+pastry|pastry|/ˈpeɪstri/|酥皮糕点
+flotation device|flotation device|/floʊˈteɪʃən dɪˌvaɪs/|救生浮具
+porch|porch|/pɔːrtʃ/|门廊
+punching bag|punching bag|/ˈpʌntʃɪŋ bæɡ/|拳击沙袋
+ratchet|ratchet|/ˈrætʃɪt/|棘轮扳手
+rugby ball|rugby ball|/ˈrʌɡbi bɔːl/|英式橄榄球
+salt and pepper shakers|salt and pepper shakers|/ˌsɔːlt ən ˈpepər ˌʃeɪkərz/|盐罐与胡椒罐
+saxophone|saxophone|/ˈsæksəfoʊn/|萨克斯管
+scoreboard|scoreboard|/ˈskɔːrbɔːrd/|记分牌
+sculpture|sculpture|/ˈskʌlptʃər/|雕塑
+segway|Segway|/ˈseɡweɪ/|两轮平衡车
+skyscraper|skyscraper|/ˈskaɪskreɪpər/|摩天大楼
+snowman|snowman|/ˈsnoʊmæn/|雪人
+snowmobile|snowmobile|/ˈsnoʊmoʊbiːl/|雪地摩托
+snowplow|snowplow|/ˈsnoʊplaʊ/|扫雪车
+sofa bed|sofa bed|/ˈsoʊfə bed/|沙发床
+sombrero|sombrero|/sɑːmˈbreroʊ/|墨西哥宽檐帽
+sports uniform|sports uniform|/ˈspɔːrts ˌjuːnɪfɔːrm/|运动队服
+squash|squash|/skwɑːʃ/|笋瓜
+squid|squid|/skwɪd/|鱿鱼
+exercise bike|exercise bike|/ˈeksərsaɪz baɪk/|健身自行车
+stethoscope|stethoscope|/ˈsteθəskoʊp/|听诊器
+stretcher|stretcher|/ˈstretʃər/|担架
+submarine|submarine|/ˌsʌbməˈriːn/|潜水艇
+sub sandwich|sub sandwich|/ˈsʌb ˌsænwɪtʃ/|长面包三明治
+sun hat|sun hat|/ˈsʌn hæt/|遮阳帽
+swim cap|swim cap|/ˈswɪm kæp/|泳帽
+swimwear|swimwear|/ˈswɪmwer/|泳装
+table tennis paddle|table tennis paddle|/ˈteɪbəl ˌtenɪs ˌpædəl/|乒乓球拍
+tart|tart|/tɑːrt/|果馅挞
+tennis ball|tennis ball|/ˈtenɪs bɔːl/|网球
+tiara|tiara|/tiˈærə/|冠状头饰
+tower|tower|/ˈtaʊər/|塔
+weight bench|weight bench|/ˈweɪt bentʃ/|举重训练凳
+treadmill|treadmill|/ˈtredmɪl/|跑步机
+tree house|tree house|/ˈtriː haʊs/|树屋
+trombone|trombone|/trɑːmˈboʊn/|长号
+trumpet|trumpet|/ˈtrʌmpɪt/|小号
+unicycle|unicycle|/ˈjuːnɪsaɪkəl/|独轮车
+volleyball|volleyball|/ˈvɑːlibɔːl/|排球
+wall clock|wall clock|/ˈwɔːl klɑːk/|挂钟
+willow|willow|/ˈwɪloʊ/|柳树
+wood stove|wood stove|/ˈwʊd stoʊv/|燃木炉

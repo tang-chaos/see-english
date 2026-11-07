@@ -1,0 +1,94 @@
+# YOLOE-only learning cards; manually authored American IPA, development edition.
+abacus|abacus|/ˈæbəkəs/|算盘
+almond|almond|/ˈɑːmənd/|杏仁
+apricot|apricot|/ˈæprɪkɑːt/|杏
+avocado|avocado|/ˌævəˈkɑːdoʊ/|牛油果
+bacon|bacon|/ˈbeɪkən/|培根
+basil|basil|/ˈbeɪzəl/|罗勒
+bath mat|bath mat|/ˈbæθ mæt/|浴室地垫
+bathrobe|bathrobe|/ˈbæθroʊb/|浴袍
+bean|bean|/biːn/|豆子
+beet|beet|/biːt/|甜菜
+blackberry|blackberry|/ˈblækberi/|黑莓
+blueberry|blueberry|/ˈbluːberi/|蓝莓
+broom|broom|/bruːm/|扫帚
+butter|butter|/ˈbʌtər/|黄油
+cargo aircraft|cargo aircraft|/ˈkɑːrɡoʊ ˈerkræft/|货运飞机
+cashew|cashew|/ˈkæʃuː/|腰果
+cauliflower|cauliflower|/ˈkɑːliflaʊər/|花椰菜
+celery|celery|/ˈseləri/|芹菜
+charger|charger|/ˈtʃɑːrdʒər/|充电器
+cherry|cherry|/ˈtʃeri/|樱桃
+cinnamon|cinnamon|/ˈsɪnəmən/|肉桂
+clothespin|clothespin|/ˈkloʊðzpɪn/|晾衣夹
+colander|colander|/ˈkɑːləndər/|滤水篮
+comb|comb|/koʊm/|梳子
+date|date|/deɪt/|椰枣
+drawing pin|drawing pin|/ˈdrɔːɪŋ pɪn/|图钉
+dumpling|dumpling|/ˈdʌmplɪŋ/|饺子
+dustpan|dustpan|/ˈdʌstpæn/|簸箕
+excavator|excavator|/ˈekskəveɪtər/|挖掘机
+extension cord|extension cord|/ɪkˈstenʃən kɔːrd/|延长电源线
+ferry|ferry|/ˈferi/|渡轮
+fighter jet|fighter jet|/ˈfaɪtər dʒet/|战斗机
+flour|flour|/ˈflaʊər/|面粉
+forklift|forklift|/ˈfɔːrklɪft/|叉车
+garbage truck|garbage truck|/ˈɡɑːrbɪdʒ trʌk/|垃圾清运车
+garlic|garlic|/ˈɡɑːrlɪk/|大蒜
+ginger|ginger|/ˈdʒɪndʒər/|生姜
+grater|grater|/ˈɡreɪtər/|擦丝器
+ham|ham|/hæm/|火腿
+hanger|hanger|/ˈhæŋər/|衣架
+honey|honey|/ˈhʌni/|蜂蜜
+jam|jam|/dʒæm/|果酱
+kiwi|kiwi|/ˈkiːwiː/|猕猴桃
+lentil|lentil|/ˈlentəl/|小扁豆
+lettuce|lettuce|/ˈletɪs/|生菜
+lime|lime|/laɪm/|青柠
+mangosteen|mangosteen|/ˈmæŋɡəstiːn/|山竹
+meatball|meatball|/ˈmiːtbɔːl/|肉丸
+moped|moped|/ˈmoʊped/|轻便摩托车
+mousepad|mouse pad|/ˈmaʊs pæd/|鼠标垫
+noodle|noodle|/ˈnuːdəl/|面条
+notebook|notebook|/ˈnoʊtbʊk/|笔记本
+olive|olive|/ˈɑːlɪv/|橄榄
+omelet|omelet|/ˈɑːmlət/|煎蛋卷
+papaya|papaya|/pəˈpaɪə/|木瓜
+parsley|parsley|/ˈpɑːrsli/|欧芹
+passion fruit|passion fruit|/ˈpæʃən fruːt/|百香果
+pea|pea|/piː/|豌豆
+peanut|peanut|/ˈpiːnʌt/|花生
+peeler|peeler|/ˈpiːlər/|削皮器
+pistachio|pistachio|/pɪˈstæʃioʊ/|开心果
+plum|plum|/plʌm/|李子
+police car|police car|/pəˈliːs kɑːr/|警车
+projector|projector|/prəˈdʒektər/|投影仪
+razor|razor|/ˈreɪzər/|剃须刀
+rice|rice|/raɪs/|米饭
+rice cooker|rice cooker|/ˈraɪs ˌkʊkər/|电饭煲
+rolling pin|rolling pin|/ˈroʊlɪŋ pɪn/|擀面杖
+salt|salt|/sɔːlt/|盐
+sausage|sausage|/ˈsɔːsɪdʒ/|香肠
+scooter|scooter|/ˈskuːtər/|踏板车
+shampoo|shampoo|/ʃæmˈpuː/|洗发水
+shopping cart|shopping cart|/ˈʃɑːpɪŋ kɑːrt/|购物车
+soap|soap|/soʊp/|肥皂
+soup|soup|/suːp/|汤
+soybean milk|soy milk|/ˈsɔɪ mɪlk/|豆浆
+spinach|spinach|/ˈspɪnɪtʃ/|菠菜
+sponge|sponge|/spʌndʒ/|海绵
+staple|staple|/ˈsteɪpəl/|订书钉
+steak|steak|/steɪk/|牛排
+subway|subway|/ˈsʌbweɪ/|地铁
+sugar|sugar|/ˈʃʊɡər/|糖
+sweet potato|sweet potato|/ˈswiːt pəˌteɪtoʊ/|红薯
+tangerine|tangerine|/ˌtændʒəˈriːn/|橘子
+thermometer|thermometer|/θərˈmɑːmɪtər/|温度计
+tissue|tissue|/ˈtɪʃuː/|纸巾
+tofu|tofu|/ˈtoʊfuː/|豆腐
+toothpaste|toothpaste|/ˈtuːθpeɪst/|牙膏
+vacuum|vacuum cleaner|/ˈvækjuːm ˌkliːnər/|吸尘器
+vanilla|vanilla|/vəˈnɪlə/|香草
+walnut|walnut|/ˈwɔːlnʌt/|核桃
+yoga mat|yoga mat|/ˈjoʊɡə mæt/|瑜伽垫
+yoghurt|yogurt|/ˈjoʊɡərt/|酸奶

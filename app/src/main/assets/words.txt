@@ -1,0 +1,81 @@
+# Model label | display word | American IPA (development edition) | Chinese
+person|person|/ˈpɝːsən/|人
+bicycle|bicycle|/ˈbaɪsɪkəl/|自行车
+car|car|/kɑːr/|汽车
+motorcycle|motorcycle|/ˈmoʊtərsaɪkəl/|摩托车
+airplane|airplane|/ˈerpleɪn/|飞机
+bus|bus|/bʌs/|公共汽车
+train|train|/treɪn/|火车
+truck|truck|/trʌk/|卡车
+boat|boat|/boʊt/|船
+traffic light|traffic light|/ˈtræfɪk laɪt/|交通信号灯
+fire hydrant|fire hydrant|/ˈfaɪər ˌhaɪdrənt/|消防栓
+stop sign|stop sign|/ˈstɑːp saɪn/|停车标志
+parking meter|parking meter|/ˈpɑːrkɪŋ ˌmiːtər/|停车计时收费表
+bench|bench|/bentʃ/|长椅
+bird|bird|/bɝːd/|鸟
+cat|cat|/kæt/|猫
+dog|dog|/dɔːɡ/|狗
+horse|horse|/hɔːrs/|马
+sheep|sheep|/ʃiːp/|绵羊
+cow|cow|/kaʊ/|奶牛
+elephant|elephant|/ˈelɪfənt/|大象
+bear|bear|/ber/|熊
+zebra|zebra|/ˈziːbrə/|斑马
+giraffe|giraffe|/dʒəˈræf/|长颈鹿
+backpack|backpack|/ˈbækpæk/|双肩背包
+umbrella|umbrella|/ʌmˈbrelə/|雨伞
+handbag|handbag|/ˈhændbæɡ/|手提包
+tie|tie|/taɪ/|领带
+suitcase|suitcase|/ˈsuːtkeɪs/|行李箱
+frisbee|frisbee|/ˈfrɪzbi/|飞盘
+skis|skis|/skiːz/|滑雪板
+snowboard|snowboard|/ˈsnoʊbɔːrd/|单板滑雪板
+sports ball|ball|/bɔːl/|球
+kite|kite|/kaɪt/|风筝
+baseball bat|baseball bat|/ˈbeɪsbɔːl bæt/|棒球棒
+baseball glove|baseball glove|/ˈbeɪsbɔːl ɡlʌv/|棒球手套
+skateboard|skateboard|/ˈskeɪtbɔːrd/|滑板
+surfboard|surfboard|/ˈsɝːfbɔːrd/|冲浪板
+tennis racket|tennis racket|/ˈtenɪs ˌrækɪt/|网球拍
+bottle|bottle|/ˈbɑːtəl/|瓶子
+wine glass|wine glass|/ˈwaɪn ɡlæs/|葡萄酒杯
+cup|cup|/kʌp/|杯子
+fork|fork|/fɔːrk/|叉子
+knife|knife|/naɪf/|刀
+spoon|spoon|/spuːn/|勺子
+bowl|bowl|/boʊl/|碗
+banana|banana|/bəˈnænə/|香蕉
+apple|apple|/ˈæpəl/|苹果
+sandwich|sandwich|/ˈsænwɪtʃ/|三明治
+orange|orange|/ˈɔːrɪndʒ/|橙子
+broccoli|broccoli|/ˈbrɑːkəli/|西兰花
+carrot|carrot|/ˈkærət/|胡萝卜
+hot dog|hot dog|/ˈhɑːt dɔːɡ/|热狗
+pizza|pizza|/ˈpiːtsə/|披萨
+donut|donut|/ˈdoʊnʌt/|甜甜圈
+cake|cake|/keɪk/|蛋糕
+chair|chair|/tʃer/|椅子
+couch|sofa|/ˈsoʊfə/|沙发
+potted plant|potted plant|/ˈpɑːtɪd plænt/|盆栽
+bed|bed|/bed/|床
+dining table|dining table|/ˈdaɪnɪŋ ˌteɪbəl/|餐桌
+toilet|toilet|/ˈtɔɪlət/|马桶
+tv|television|/ˈteləvɪʒən/|电视机
+laptop|laptop|/ˈlæptɑːp/|笔记本电脑
+mouse|mouse|/maʊs/|鼠标
+remote|remote control|/rɪˌmoʊt kənˈtroʊl/|遥控器
+keyboard|keyboard|/ˈkiːbɔːrd/|键盘
+cell phone|mobile phone|/ˈmoʊbəl foʊn/|手机
+microwave|microwave|/ˈmaɪkroʊweɪv/|微波炉
+oven|oven|/ˈʌvən/|烤箱
+toaster|toaster|/ˈtoʊstər/|烤面包机
+sink|sink|/sɪŋk/|水槽
+refrigerator|refrigerator|/rɪˈfrɪdʒəreɪtər/|冰箱
+book|book|/bʊk/|书
+clock|clock|/klɑːk/|钟
+vase|vase|/veɪs/|花瓶
+scissors|scissors|/ˈsɪzərz/|剪刀
+teddy bear|teddy bear|/ˈtedi ber/|泰迪熊玩偶
+hair drier|hair dryer|/ˈher ˌdraɪər/|吹风机
+toothbrush|toothbrush|/ˈtuːθbrʌʃ/|牙刷

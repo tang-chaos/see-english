@@ -1,0 +1,33 @@
+{
+  "model": "taobao-mnn/Qwen3-VL-8B-Instruct-MNN",
+  "runtime": "MNN 3.6.2 Windows CPU",
+  "source_image": "docs/media/desk-original.jpg",
+  "original_size": [
+    1600,
+    1067
+  ],
+  "input_size": [
+    672,
+    448
+  ],
+  "prompt": "Name the clearly visible physical objects or products. Give short English names and Chinese meanings. Use readable package text. Treat printed figures as artwork. Identify visible body parts specifically. Do not guess unclear objects. Return only JSON: {\"objects\":[{\"english\":\"name\",\"chinese\":\"中文\"}]}. At most 10 objects.",
+  "output": "{\"objects\": [{\"english\": \"Sony camera\", \"chinese\": \"索尼相机\"}, {\"english\": \"laptop\", \"chinese\": \"笔记本电脑\"}, {\"english\": \"notebook\", \"chinese\": \"笔记本\"}, {\"english\": \"watch\", \"chinese\": \"手表\"}, {\"english\": \"pen\", \"chinese\": \"笔\"}, {\"english\": \"glasses\", \"chinese\": \"眼镜\"}, {\"english\": \"plant\", \"chinese\": \"植物\"}]}\n",
+  "load_seconds": 41.85517410002649,
+  "inference_seconds": 85.45129880006425,
+  "threads": 4,
+  "max_new_tokens": 384,
+  "metrics": {
+    "vision_us": 20652088,
+    "prefill_us": 44968813,
+    "decode_us": 19659017,
+    "prompt_len": 369,
+    "gen_seq_len": 102,
+    "pixels_mp": 0.30105599761009216
+  },
+  "input_mode": "path",
+  "status": "LlmStatus.NORMAL_FINISHED",
+  "device_validation": false,
+  "model_revision": "890e672be412e84d34bc318925aa4b7b61ad24c7",
+  "image_source": "https://unsplash.com/photos/black-framed-eyeglasses-beside-black-leather-case-and-macbook-pro-M5BxrU2nSTM",
+  "note": "Actual desktop CPU inference; not Android device validation or an overall accuracy benchmark."
+}

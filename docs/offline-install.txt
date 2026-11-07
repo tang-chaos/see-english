@@ -1,0 +1,35 @@
+看见英语 0.8.5 完整离线套装（ARM64）
+
+套装包含最新 APP、约 5.45GB 的 Qwen3-VL-8B INT4 模型与安装脚本。不需要 API Key，不需要 MNN Chat。模型是独立文件，不是超大 APK。
+
+GitHub 分卷下载
+1. 从本项目 v0.8.5 Release 下载全部 see-english-0.8.5-offline-arm64.zip.partXX、offline-parts-0.8.5.json 和 merge-offline.ps1，放在同一个目录。
+2. 在该目录打开 PowerShell，运行：powershell -NoProfile -ExecutionPolicy Bypass -File ./merge-offline.ps1
+3. 脚本核对每卷哈希、合并并核对整体 SHA-256，生成完整 ZIP。请勿分别解压 partXX。
+4. 使用支持 ZIP64 的工具完整解压 ZIP。手机安装需要 APK 和解压后的 model 文件夹。
+
+电脑 USB 安装
+1. Windows 电脑安装 Android platform-tools（adb），手机开启 USB 调试并授权。
+2. 手机至少保留 12GiB 可用存储。
+3. 在解压目录双击 install.cmd，等待 APK 安装、模型复制与校验。
+4. 打开 APP，拍照定格或选择相册照片 -> 模型识别 -> 识别这张照片。
+
+手机直接安装
+1. 安装解压后的 see-english-0.8.5-arm64-debug.apk。
+2. APP -> 模型识别 -> 识别设置 -> 导入离线识别文件。
+3. 选择 model 文件夹本身（内有 config.json 和 llm.mnn.weight），保持应用打开等待导入与校验。
+4. 确认就绪后，可自行清理下载压缩包与解压副本，不要删除 APP 数据目录中的模型。
+5. 手机同时保留压缩包、解压文件和导入副本时，建议预留约 20GB 临时空间；电脑还需容纳分卷、合并 ZIP 与解压文件。
+
+说明
+- Android 8.0+，ARM64。模型对手机内存与算力要求高，低内存设备可能无法运行；不同设备速度差异大。
+- 初次部署后可断网识别。离线朗读需系统已安装离线英语语音包。
+- 实时相机只覆盖 COCO 80 类；模型识别以词卡展示更多物品，不生成定位框。新词没有音标时会明确提示。
+- 当前仍有漏检、误判、较长等待，不能保证识别所有物品。电脑示例不等于手机速度或准确率。
+- 覆盖安装通常保留模型、生词本与历史；卸载或清除数据可能移除它们。
+- APP 是 debug 测试包；个人学习与开发参考使用。
+
+模型与运行库来源
+https://huggingface.co/taobao-mnn/Qwen3-VL-8B-Instruct-MNN
+https://github.com/alibaba/MNN
+许可见套装 LICENSE、MNN-LICENSE.txt、QWEN-LICENSE.txt、NOTICE、THIRD_PARTY.md。

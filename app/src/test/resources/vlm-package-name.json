@@ -1,0 +1,30 @@
+{
+  "model": "taobao-mnn/Qwen3-VL-8B-Instruct-MNN",
+  "runtime": "MNN 3.6.2 Windows CPU",
+  "source_image": "private-evaluation-image-not-distributed",
+  "original_size": [
+    385,
+    750
+  ],
+  "input_size": [
+    345,
+    672
+  ],
+  "prompt": "Name the main physical object or product shown. Reply with exactly one JSON object containing english and chinese. No extra detail.",
+  "output": "{\"english\": \"skim milk\", \"chinese\": \"脱脂纯牛奶\"}\n",
+  "load_seconds": 58.79294509999454,
+  "inference_seconds": 62.20938879996538,
+  "threads": 6,
+  "max_new_tokens": 90,
+  "metrics": {
+    "vision_us": 11351759,
+    "prefill_us": 43998313,
+    "decode_us": 6754449,
+    "prompt_len": 265,
+    "gen_seq_len": 19,
+    "pixels_mp": 0.23654399812221527
+  },
+  "input_mode": "path",
+  "status": "LlmStatus.NORMAL_FINISHED",
+  "device_validation": false
+}

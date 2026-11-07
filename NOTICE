@@ -1,0 +1,9 @@
+See English / 看见英语
+Copyright 2026 See English contributors
+
+Original application code is licensed under Apache License 2.0.
+Includes AndroidX, CameraX, Compose, Kotlin, MediaPipe and MNN components.
+Model weights are provided by Qwen and the taobao-mnn conversion project.
+Each third-party component retains its original copyright and license.
+See THIRD_PARTY.md and licenses/ for upstream notices and license copies.
+The Unsplash demonstration photo is separately licensed (see docs/media/README.md).

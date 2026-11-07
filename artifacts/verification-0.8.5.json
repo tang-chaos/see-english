@@ -1,0 +1,25 @@
+{
+  "version": "0.8.5",
+  "packages": [
+    {
+      "file": "see-english-0.8.5-arm64-debug.apk",
+      "bytes": 39988103,
+      "sha256": "8d2375b16887ddfcafeaaed93a39eb3fda2527617ed9557e7770ed70d8c5a72d",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "packaged_assets_match": true
+    }
+  ],
+  "local_tests": {
+    "tests": 33,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint_summary": "0 errors, 17 warnings",
+  "physical_device_validated": false,
+  "removed_legacy_onnx_and_ocr": true,
+  "realtime_classes": 80,
+  "note": "Current camera/vocabulary/cancellation/UI paths were checked locally; retired model tests are archived. Android device behavior remains unverified for this release."
+}

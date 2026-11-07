@@ -1,0 +1,87 @@
+{
+  "version": "0.8.5",
+  "apk": {
+    "file": "see-english-0.8.5-arm64-debug.apk",
+    "bytes": 39988103,
+    "sha256": "8d2375b16887ddfcafeaaed93a39eb3fda2527617ed9557e7770ed70d8c5a72d",
+    "abis": [
+      "arm64-v8a"
+    ],
+    "packaged_assets_match": true
+  },
+  "model": {
+    "repository": "taobao-mnn/Qwen3-VL-8B-Instruct-MNN",
+    "revision": "890e672be412e84d34bc318925aa4b7b61ad24c7",
+    "files": [
+      {
+        "file": "README.md",
+        "bytes": 1236,
+        "sha256": "edaab5520a03a2c6ad79b8ded9fa3b096ce06d82b334ef782fb4357f82c0ff0c",
+        "upstream_sha256": null
+      },
+      {
+        "file": "config.json",
+        "bytes": 605,
+        "sha256": "1ed5c6e65459fdc4b0c33319715b763005013ba8580dd3c687bd2651546ca2a4",
+        "upstream_sha256": null
+      },
+      {
+        "file": "embeddings_int4.bin",
+        "bytes": 388956160,
+        "sha256": "311cd44e48dcec950bcc5cffb465ae0e2fec8154247f2ff545b7fd1240960bf4",
+        "upstream_sha256": "311cd44e48dcec950bcc5cffb465ae0e2fec8154247f2ff545b7fd1240960bf4"
+      },
+      {
+        "file": "llm.mnn",
+        "bytes": 591728,
+        "sha256": "61f0fe3b5d0447518ae5b26ab19c0b8a7f07c51f598be5f52fa0aee7405972e3",
+        "upstream_sha256": "61f0fe3b5d0447518ae5b26ab19c0b8a7f07c51f598be5f52fa0aee7405972e3"
+      },
+      {
+        "file": "llm.mnn.json",
+        "bytes": 1245313,
+        "sha256": "785b31ac0e0b4def1a9e707cd0876fc1e072f957db61d56868c89e0f8219aa2a",
+        "upstream_sha256": null
+      },
+      {
+        "file": "llm.mnn.weight",
+        "bytes": 4732532162,
+        "sha256": "a52971cb29c0bef35ab336b370db00d676223e6d721b99e3bf0b9c70f2d9bcfe",
+        "upstream_sha256": "a52971cb29c0bef35ab336b370db00d676223e6d721b99e3bf0b9c70f2d9bcfe"
+      },
+      {
+        "file": "llm_config.json",
+        "bytes": 6436,
+        "sha256": "ce8f3a6532832d37eff85cf45ddb24b4d21567d293cfc8c64a67fa0fdca93df9",
+        "upstream_sha256": null
+      },
+      {
+        "file": "tokenizer.txt",
+        "bytes": 3193555,
+        "sha256": "7119de4966cc6a8ae87d7f083e65b315282d06c3122fdd41ce783fdd2d3c1ca2",
+        "upstream_sha256": null
+      },
+      {
+        "file": "visual.mnn",
+        "bytes": 562048,
+        "sha256": "8f1653348a94c29e56d47529dd461215c80d5380263136adee7945809f407bf7",
+        "upstream_sha256": "8f1653348a94c29e56d47529dd461215c80d5380263136adee7945809f407bf7"
+      },
+      {
+        "file": "visual.mnn.weight",
+        "bytes": 326728744,
+        "sha256": "6d8b1a4886cca9ab8b8c86979f4e5291e126ac930124e9a2361833e7b11301e6",
+        "upstream_sha256": "6d8b1a4886cca9ab8b8c86979f4e5291e126ac930124e9a2361833e7b11301e6"
+      }
+    ],
+    "total_bytes": 5453817987
+  },
+  "phone_tested": false,
+  "internet_required": false,
+  "archive": {
+    "file": "see-english-0.8.5-offline-arm64.zip",
+    "bytes": 5493856534,
+    "sha256": "756705eaf6f5435f2854fcf0179c81539dfdfcac104c384328d6291e133f953e",
+    "crc_verified": true
+  }
+}

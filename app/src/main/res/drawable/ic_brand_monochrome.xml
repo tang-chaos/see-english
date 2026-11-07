@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <group android:scaleX="0.6666667" android:scaleY="0.6666667" android:translateX="18" android:translateY="18">
+        <!-- Sprout ears and rounded spirit; face features are transparent cutouts. -->
+        <path android:fillColor="#FFFFFF"
+            android:pathData="M46,40C29,26 17,37 22,46C26,52 39,48 46,44C47,25 64,14 69,23C74,34 60,42 48,43Z" />
+        <path android:fillColor="#FFFFFF" android:fillType="evenOdd"
+            android:pathData="M20,80C12,64 22,43 43,38C60,32 77,42 85,56C91,66 92,76 88,82L76,83L56,88L36,83Z M39,57A5,7 0,1 0,39,71A5,7 0,1 0,39,57Z M64,53A5,7 0,1 0,64,67A5,7 0,1 0,64,53Z M48,72Q55,76 62,70Q60,82 53,79Q49,77 48,72Z" />
+        <path android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="4"
+            android:strokeLineCap="round" android:strokeLineJoin="round"
+            android:pathData="M20,81Q37,75 54,88Q73,75 90,81L84,98Q69,96 54,103Q40,96 25,98Z M54,88V103" />
+        <path android:fillColor="#FFFFFF"
+            android:pathData="M80,30L83,35L89,36L85,40L85,46L80,43L75,46L75,40L71,36L77,35Z" />
+    </group>
+</vector>
